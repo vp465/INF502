@@ -32,7 +32,8 @@ Your submission is complete when you complete the *Assigment1.md* file with your
     - Use `git branch` to list the branches in this repository.
     - Use `git checkout` to explore each branch.
     - Use `git log --decorate` to explore the structure of commits.
-ANSWER: ** master
+
+ ANSWER: ** master
           math**
 
 2. Try `git log --graph --all` to see the commit tree. Paste the result here and write a paragraph to provide an interpretation of what you found.
