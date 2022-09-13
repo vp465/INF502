@@ -104,7 +104,7 @@ commit e3c629dd524712aedea96d7dbaad1c50d12b5b5e (math)
 Author: Igor Steinmacher <igorsteinmacher@gmail.com>
 Date:   Wed Aug 14 23:13:48 2019 -0700
 
-    Adding some more knowledge to the function
+   Adding some more knowledge to the function
 
 commit 654b490a181dedf82dd6deda5f9848d6cca05918
 Author: Igor Steinmacher <igorsteinmacher@gmail.com>
