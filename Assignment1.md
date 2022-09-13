@@ -19,7 +19,7 @@ Then, follow these steps:
 **On GitHub:**
 1. Create a new repository under your GitHub account called *INF502*;
 2. Create a file called *"Assignment1.md"*;
-3. Copy the questions from this section and paste in your *"Assignment1.md"* file (tip: to copy the questions, click on *"Raw"* at the right-top of this file; this will show you the markdown source);
+3. Copy the questions from this section and paste in your *"Assignment1.md"* file (tip: to copy the questions, click on *"Raw"* at the right-top of this file; this        will show you the markdown source);
 4. For each empty grey box, please provide an answer to the questions below.
 5. Invite me to see your new repository. This will allow you to keep a private repository that only you and me will be able to see.
 
