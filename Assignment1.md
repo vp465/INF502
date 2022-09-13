@@ -33,11 +33,16 @@ Your submission is complete when you complete the *Assigment1.md* file with your
     - Use `git checkout` to explore each branch.
     - Use `git log --decorate` to explore the structure of commits.
 
- ANSWER: ** master
-          math**
+ ANSWER:  master
+ 
+          math
 
 2. Try `git log --graph --all` to see the commit tree. Paste the result here and write a paragraph to provide an interpretation of what you found.
-ANSWER: PS C:\Users\Vaishnavi\Downloads\handson\handson> git log
+
+ANSWER: 
+
+**For git log**
+PS C:\Users\Vaishnavi\Downloads\handson\handson> git log
 commit 18931d12a8be7cac049b73c6bc8136e9482f3371 (HEAD -> master)
 Author: Igor Steinmacher <igorsteinmacher@gmail.com>
 Date:   Wed Aug 14 23:15:28 2019 -0700
@@ -54,12 +59,72 @@ commit 2dfb02c3f9383d6c3b2695c99e175d8b85f594a1
 Author: Igor Steinmacher <igorsteinmacher@gmail.com>
 Date:   Wed Aug 14 23:08:47 2019 -0700
 
+    Creating all files (all empty)
+
+  INTERPRETATION :
+
+  1. In the first commit Head in pointing towards master which says Making a small change here
+  2. In the second commit its says that a Draft  added of to A.py
+  3. In the third commit says Creating all files 
+  
+**for git log --graph**
+
+PS C:\Users\Vaishnavi\Downloads\handson\handson> git log --graph
+* commit 18931d12a8be7cac049b73c6bc8136e9482f3371 (HEAD -> master)
+| Author: Igor Steinmacher <igorsteinmacher@gmail.com>
+| Date:   Wed Aug 14 23:15:28 2019 -0700
+|
+|     Making a small change here
+|
+* commit 654b490a181dedf82dd6deda5f9848d6cca05918
+| Author: Igor Steinmacher <igorsteinmacher@gmail.com>
+| Date:   Wed Aug 14 23:12:14 2019 -0700
+|
+|     Added a draft of A.py
+|
+* commit 2dfb02c3f9383d6c3b2695c99e175d8b85f594a1
+  Author: Igor Steinmacher <igorsteinmacher@gmail.com>
+  Date:   Wed Aug 14 23:08:47 2019 -0700
+
+       Creating all files (all empty)
+       
+ INTERPRETATION:
+ Here you will see on left handside in a red dot sign of the nodes in a form of graph whichs says all commits are connected .
+ 
+ **git log --all**
+ 
+ PS C:\Users\Vaishnavi\Downloads\handson\handson> git log --all
+commit 18931d12a8be7cac049b73c6bc8136e9482f3371 (HEAD -> master)
+Author: Igor Steinmacher <igorsteinmacher@gmail.com>
+Date:   Wed Aug 14 23:15:28 2019 -0700
+
+    Making a small change here
+
+commit e3c629dd524712aedea96d7dbaad1c50d12b5b5e (math)
+Author: Igor Steinmacher <igorsteinmacher@gmail.com>
+Date:   Wed Aug 14 23:13:48 2019 -0700
+
+    Adding some more knowledge to the function
+
+commit 654b490a181dedf82dd6deda5f9848d6cca05918
+Author: Igor Steinmacher <igorsteinmacher@gmail.com>
+Date:   Wed Aug 14 23:12:14 2019 -0700
+
+    Added a draft of A.py
+
+commit 2dfb02c3f9383d6c3b2695c99e175d8b85f594a1
+Author: Igor Steinmacher <igorsteinmacher@gmail.com>
+Date:   Wed Aug 14 23:08:47 2019 -0700
+
+     Creating all files (all empty)
+  
+  INTERPRETATION:
+  
+Using the command "git log --all" it has listened the refs which is HEAD and the small changesare mention in the commit .
+
+
 3. Use `git diff BRANCH_NAME` to view the differences from a branch and the current branch. Summarize the difference from master to the other branch.
 
-```
-
-
-```
 
 4. Write a command sequence to merge the non-master branch into `master`.
 
