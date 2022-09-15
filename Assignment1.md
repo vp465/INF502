@@ -19,7 +19,7 @@ Then, follow these steps:
 **On GitHub:**
 1. Create a new repository under your GitHub account called *INF502*;
 2. Create a file called *"Assignment1.md"*;
-3. Copy the questions from this section and paste in your *"Assignment1.md"* file (tip: to copy the questions, click on *"Raw"* at the right-top of this file; this        will show you the markdown source);
+3. Copy the questions from this section and paste in your *"Assignment1.md"* file (tip: to copy the questions, click on *"Raw"* at the right-top of this file; this will show you the markdown source);
 4. For each empty grey box, please provide an answer to the questions below.
 5. Invite me to see your new repository. This will allow you to keep a private repository that only you and me will be able to see.
 
@@ -34,84 +34,56 @@ Your submission is complete when you complete the *Assigment1.md* file with your
     - Use `git log --decorate` to explore the structure of commits.
 
 ```
-~~For git branch : master
-  math
-~~For git checkout :PS C:\Users\Vaishnavi\Downloads\handson\handson> git checkout math
-Switched to branch 'math'
-PS C:\Users\Vaishnavi\Downloads\handson\handson> git log
-commit e3c629dd524712aedea96d7dbaad1c50d12b5b5e (HEAD -> math)
-Author: Igor Steinmacher <igorsteinmacher@gmail.com>
-Date:   Wed Aug 14 23:13:48 2019 -0700
-
-    Adding some more knowledge to the function
-
-commit 654b490a181dedf82dd6deda5f9848d6cca05918
-Author: Igor Steinmacher <igorsteinmacher@gmail.com>
-Date:   Wed Aug 14 23:12:14 2019 -0700
-
-    Added a draft of A.py
-
-commit 2dfb02c3f9383d6c3b2695c99e175d8b85f594a1
-Author: Igor Steinmacher <igorsteinmacher@gmail.com>
-Date:   Wed Aug 14 23:08:47 2019 -0700
-
-     Creating all files (all empty)
-~~For git log --decorate :commit 18931d12a8be7cac049b73c6bc8136e9482f3371 (HEAD -> master)
-Author: Igor Steinmacher <igorsteinmacher@gmail.com>
-Date:   Wed Aug 14 23:15:28 2019 -0700
+- Use `git branch` to list the branches in this repository.
+   There are 2 branch:
+   Master 
+   Math 
+   
+- Use `git checkout` to explore each branch.
+1.)PS C:\Users\Vaishnavi\Downloads\handson\handson> git checkout math
+   Switched to branch 'math'
+2.)PS C:\Users\Vaishnavi\Downloads\handson\handson> git checkout master
+   Switched to branch 'master'
+   
+Use `git log --decorate` to explore the structure of commits.
+1.)PS C:\Users\Vaishnavi\Downloads\handson\handson> git log --decorate
+  commit 18931d12a8be7cac049b73c6bc8136e9482f3371 (HEAD -> master)
+  Author: Igor Steinmacher <igorsteinmacher@gmail.com>
+  Date:   Wed Aug 14 23:15:28 2019 -0700
 
     Making a small change here
 
-commit 654b490a181dedf82dd6deda5f9848d6cca05918
-Author: Igor Steinmacher <igorsteinmacher@gmail.com>
-Date:   Wed Aug 14 23:12:14 2019 -0700
+  commit 654b490a181dedf82dd6deda5f9848d6cca05918
+  Author: Igor Steinmacher <igorsteinmacher@gmail.com>
+  Date:   Wed Aug 14 23:12:14 2019 -0700
 
     Added a draft of A.py
 
-commit 2dfb02c3f9383d6c3b2695c99e175d8b85f594a1
-Author: Igor Steinmacher <igorsteinmacher@gmail.com>
-Date:   Wed Aug 14 23:08:47 2019 -0700
+  commit 2dfb02c3f9383d6c3b2695c99e175d8b85f594a1
+  Author: Igor Steinmacher <igorsteinmacher@gmail.com>
+  Date:   Wed Aug 14 23:08:47 2019 -0700
 
      Creating all files (all empty)
+ 2.) Commits will similar for math 
+
 
 ```
 
 2. Try `git log --graph --all` to see the commit tree. Paste the result here and write a paragraph to provide an interpretation of what you found.
 ```
-For git log
-PS C:\Users\Vaishnavi\Downloads\handson\handson> git log
-commit 18931d12a8be7cac049b73c6bc8136e9482f3371 (HEAD -> master)
-Author: Igor Steinmacher <igorsteinmacher@gmail.com>
-Date:   Wed Aug 14 23:15:28 2019 -0700
-
-    Making a small change here
-
-commit 654b490a181dedf82dd6deda5f9848d6cca05918
-Author: Igor Steinmacher <igorsteinmacher@gmail.com>
-Date:   Wed Aug 14 23:12:14 2019 -0700
-
-    Added a draft of A.py
-
-commit 2dfb02c3f9383d6c3b2695c99e175d8b85f594a1
-Author: Igor Steinmacher <igorsteinmacher@gmail.com>
-Date:   Wed Aug 14 23:08:47 2019 -0700
-
-    Creating all files (all empty)
-
-  INTERPRETATION :
-
-  1. In the first commit Head in pointing towards master which says Making a small change here
-  2. In the second commit its says that a Draft  added of to A.py
-  3. In the third commit says Creating all files 
-  
-for git log --graph
-
-PS C:\Users\Vaishnavi\Downloads\handson\handson> git log --graph
+For git log --graph --all:
+PS C:\Users\Vaishnavi\Downloads\handson\handson> git log --graph --all
 * commit 18931d12a8be7cac049b73c6bc8136e9482f3371 (HEAD -> master)
 | Author: Igor Steinmacher <igorsteinmacher@gmail.com>
 | Date:   Wed Aug 14 23:15:28 2019 -0700
 |
 |     Making a small change here
+|
+| * commit e3c629dd524712aedea96d7dbaad1c50d12b5b5e (math)
+|/  Author: Igor Steinmacher <igorsteinmacher@gmail.com>
+|   Date:   Wed Aug 14 23:13:48 2019 -0700
+|
+|       Adding some more knowledge to the function
 |
 * commit 654b490a181dedf82dd6deda5f9848d6cca05918
 | Author: Igor Steinmacher <igorsteinmacher@gmail.com>
@@ -125,40 +97,11 @@ PS C:\Users\Vaishnavi\Downloads\handson\handson> git log --graph
 
        Creating all files (all empty)
        
- INTERPRETATION:
- Here you will see on left handside in a red dot sign of the nodes in a form of graph whichs says all commits are connected .
- 
- git log --all
- 
- PS C:\Users\Vaishnavi\Downloads\handson\handson> git log --all
-commit 18931d12a8be7cac049b73c6bc8136e9482f3371 (HEAD -> master)
-Author: Igor Steinmacher <igorsteinmacher@gmail.com>
-Date:   Wed Aug 14 23:15:28 2019 -0700
-
-    Making a small change here
-
-commit e3c629dd524712aedea96d7dbaad1c50d12b5b5e (math)
-Author: Igor Steinmacher <igorsteinmacher@gmail.com>
-Date:   Wed Aug 14 23:13:48 2019 -0700
-
-   Adding some more knowledge to the function
-
-commit 654b490a181dedf82dd6deda5f9848d6cca05918
-Author: Igor Steinmacher <igorsteinmacher@gmail.com>
-Date:   Wed Aug 14 23:12:14 2019 -0700
-
-    Added a draft of A.py
-
-commit 2dfb02c3f9383d6c3b2695c99e175d8b85f594a1
-Author: Igor Steinmacher <igorsteinmacher@gmail.com>
-Date:   Wed Aug 14 23:08:47 2019 -0700
-
-     Creating all files (all empty)
-  
-  INTERPRETATION:
-  
-Using the command "git log --all" it has listened the refs which is HEAD and the small changes are mention in the commit .
-
+       Interpretation:->
+       1.) In the first commit it is observed that all files are created which are empty appartently.
+       2.)In the second commit it is observed that some draft is added to file A.py.
+       3.)In the third commit it is observed that some more knowledge is added to the function in the math branch.
+       4.)In the fourth commit it is observed that some small changes are made .
 
 ```
 
@@ -172,7 +115,8 @@ Using the command "git log --all" it has listened the refs which is HEAD and the
 4. Write a command sequence to merge the non-master branch into `master`.
 
 ```
-
+git merge BRANCH_NAME
+for example :if we wan to merge the branch math then -> git merge math .
 
 ```
 
@@ -180,7 +124,8 @@ Using the command "git log --all" it has listened the refs which is HEAD and the
 5. Write a command (or sequence) to (i) create a new branch called `math` (from the `master`) and (ii) change to this branch.
 
 ```
-
+1.)To create a new branch called math:->
+2.)To change to this branch:->
 
 ```
    
