@@ -108,6 +108,34 @@ PS C:\Users\Vaishnavi\Downloads\handson\handson> git log --graph --all
 3. Use `git diff BRANCH_NAME` to view the differences from a branch and the current branch. Summarize the difference from master to the other branch.
 
 ```
+After using git diff result found are :
+diff --git a/A.py b/A.py
+index 0afa98c..dc1e9bd 100644
+--- a/A.py
++++ b/A.py
+@@ -1,11 +1,3 @@
+ #this is just an example, do not freak out
+ def calculate_this(operator, num1, num2):
+-   if operator == 'sum':
+-      print num1 + num2
+-      print 'That was easy buddy'
+-   else:
+-      if operator == 'subtraction':
+-         print num1 - num2
+-         print 'I could handle that...'
+-      else:
+-         print 'my knowledge is limited'
++   print 'my knowledge is limited'
+diff --git a/B.py b/B.py
+index e69de29..c63f94c 100644
+--- a/B.py
++++ b/B.py
+@@ -0,0 +1 @@
++# Another file that will receive a line of code... at least.
+
+Interpretation :
+1.) A.py file in math branch has If else loops, but A.py file in master branch has no If Else loops 
+2.) B.py file in master branch has comment and the B.py in math branch is empty
 
 
 ```
@@ -124,8 +152,8 @@ for example :if we wan to merge the branch math then -> git merge math .
 5. Write a command (or sequence) to (i) create a new branch called `math` (from the `master`) and (ii) change to this branch.
 
 ```
-1.)To create a new branch called math:->
-2.)To change to this branch:->
+1.)To create a new branch called math:-> git branch math
+2.)To change to this branch:-> git checkout math
 
 ```
    
@@ -133,10 +161,15 @@ for example :if we wan to merge the branch math then -> git merge math .
 ```
 print 'I know math, look:'
 print 2+2
+ 
+ PS C:\Users\Vaishnavi\Downloads\handson\handson> git commit -a -m "Added few lines in the B.py"
+[master d5087cf] Added few lines in the B.py
+ 1 file changed, 1 insertion(+)
 ```
 
 7. Write a command (or sequence) to commit your changes.
 ```
+git commit -a -m "Added few lines in the B.py"
 
 
 ```
@@ -148,32 +181,42 @@ print 'hello world!'
 
 9. Write a command sequence to merge the `math` branch into `master` and describe what happened.
 ```
-
-
+git merge math
+below conflict occured while merging 
+Auto-merging B.py
+CONFLICT (content): Merge conflict in B.py
+Automatic merge failed; fix conflicts and then commit the result.
+PS C:\Users\Vaishnavi\Downloads\handson\handson>
+Description:
+The conflict occured because the data in same line numbers for both file is different  .
 ```
    
 10. Write a set of commands to abort the merge.
 ```
-
+git merge --abort
 
 ```
    
 11. Now repeat item 9, but proceed with the manual merge (editing B.py). All implemented methods are needed. Explain your procedure.
 ```
+since in the 9 question we faced the conflict. To resolved that i have done a manual merge by removing line codes such as >>head,===, << math and then saved it . And then again commited in the terminal using git commit -a -m "edited B.py" which says it is already up to date .
 
 
 ```
 
 12. Write a command (or set of commands) to proceed with the merge and make `master` branch up-to-date.
 ```
-
+git merge math 
+after this merge automatical master branch will be up to date 
 
 ```
 
 13. Complete Part 2. Then, come back here and answer the following:
 Report your experience of submitting the Part 2. Please, include the steps you followed, the commands you used, and the hurdles you faced (within the file you created for the **Part 1**).
 ```
-
+As of for Part2 
+I have edited my repository in the github itself, i haven't used any local editor .
+In the Part1 we have used commands as such as git log -- decorate , git branch , git merge , etc  but along with that i have used commands such as git commit -a -m , git abort ,etc.Also there was apoint were i tried to merge the branches but the conflicts occured .And just to do some observation i used command git merge --abort . but later when i was trying to solve the conflict i was excepting some diferent source code for <<< HEAD ,======, <<<<<math meanwhile i forgot that that i already entered abort merge command . A soons as i realized my mistakes i made the changes .
 
 ```
 
