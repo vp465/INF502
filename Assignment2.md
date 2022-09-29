@@ -4,10 +4,37 @@
 
 The function returns the length of the hypotenuse assuming that `length_a` and `length_b` are the lengths of the two legs of a right triangle (the legs that form the triangle's right angle). Hint: the `math` module might have useful functions to use.
 
-For example:
-```python
-print(pythagoreanTheorem(2, 2))
-2.8284271247461903
+
+``` CODE:
+import math
+def pythagoreanTheorem(length_a, length_b):
+    Csquare = (length_a ** 2) + (length_b ** 2)
+    length_c = math.sqrt(Csquare)
+    return length_c
+a = float(input('length_a:'))
+b = float(input('length_b:'))
+test1 = pythagoreanTheorem(a, b)
+print("Length C is", test1, end=' ')
+[HERE](C:\Users\Vaishnavi\PycharmProjects\pythonProject\venv\Scripts\python.exe C:\Users\Vaishnavi\AppData\Roaming\JetBrains\PyCharmCE2022.2\scratches\pythagorean.py ) IA THE LINK TO .py FILE 
+~~ EXAMPLES ~~
+1)
+length_a:4
+length_b:2
+Length C is 4.47213595499958 
+2)
+length_a:3
+length_b:4
+Length C is 5.0 
+3)
+length_a:1
+length_b:2
+Length C is 2.23606797749979 
+4)
+length_a: 2
+length_b: 5
+Length C is 5.385164807134504 
+
+
 ```
 In your solution markdown, please provide: a link to the .py file, a commented code, the output of a few examples (3-4).
 
