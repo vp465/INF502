@@ -17,7 +17,7 @@ test1 = pythagoreanTheorem(a, b)
 print("Length C is", test1, end=' ')
 
 link to the .py file is 
-[HERE] (C:\Users\Vaishnavi\PycharmProjects\pythonProject\venv\Scripts\python.exe C:\Users\Vaishnavi\AppData\Roaming\JetBrains\PyCharmCE2022.2\scratches\pythagorean.py)
+[HERE]("C:\Users\Vaishnavi\AppData\Roaming\JetBrains\PyCharmCE2022.2\scratches\pythagorean.py")
 
 
 
