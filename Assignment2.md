@@ -15,7 +15,7 @@ a = float(input('length_a:'))
 b = float(input('length_b:'))
 test1 = pythagoreanTheorem(a, b)
 print("Length C is", test1, end=' ')
-[HERE](C:\Users\Vaishnavi\PycharmProjects\pythonProject\venv\Scripts\python.exe C:\Users\Vaishnavi\AppData\Roaming\JetBrains\PyCharmCE2022.2\scratches\pythagorean.py ) IA THE LINK TO .py FILE 
+[HERE]C:\Users\Vaishnavi\PycharmProjects\pythonProject\venv\Scripts\python.exe C:\Users\Vaishnavi\AppData\Roaming\JetBrains\PyCharmCE2022.2\scratches\pythagorean.py  IS THE LINK TO .py FILE 
 ~~ EXAMPLES ~~
 1)
 length_a:4
