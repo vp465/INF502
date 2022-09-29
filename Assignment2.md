@@ -41,7 +41,7 @@ Length C is 5.385164807134504
 
 
 ```
-In your solution markdown, please provide: a link to the .py file, a commented code, the output of a few examples (3-4).
+
 
 **2. Write a function with the following signature:** `list_mangler(list_in)`.
 
