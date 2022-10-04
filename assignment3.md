@@ -30,11 +30,24 @@ To populate your dictionary with data, provide a menu of options to the users:
 1. Search the element by symbol (see all the details).
 ```
 ```
-3. Search by a property (`name`, `number`, `row`, `column`) and see the values for that property for all the elements in the table.
-4. Enter a new element manually (type the information for each property)
-5. Change the properties of an element (by symbol)
-6. Export periodic table as a JSON file
-7. Load periodic table from JSON file
-8. Exit the program
+2.Search by a property (`name`, `number`, `row`, `column`) and see the values for that property for all the elements in the table.
+```
+```
+3. Enter a new element manually (type the information for each property)
+```
+```
+4.Change the properties of an element (by symbol)
+```
+```
+5. Export periodic table as a JSON file
+```
+```
+6. Load periodic table from JSON file
+```
+```
+
+7. Exit the program
+```
+```
 
 Make sure you do the appropriate communication with the user to get the necessary information to complete each step.
