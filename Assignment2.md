@@ -1,6 +1,6 @@
 ## Problems
 
-**1. Write a function with the following signature:** `pythagoreanTheorem(length_a, length_b)`. Find the code [here](Q1.py)
+**1. Write a function with the following signature:** `pythagoreanTheorem(length_a, length_b)`. Find the code [here](code/Q1.py)
 
 The function returns the length of the hypotenuse assuming that `length_a` and `length_b` are the lengths of the two legs of a right triangle (the legs that form the triangle's right angle). Hint: the `math` module might have useful functions to use.
 
