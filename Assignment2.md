@@ -10,6 +10,8 @@ CODE:
 import math
 def pythagoreanTheorem(length_a, length_b):
     return math.sqrt(length_a ** 2 + length_b ** 2)      #squareroot(square(a)+square(b))
+    
+    
 EXAMPLES:
 1.)pythagoreanTheorem(2,1)
     2.23606797749979
@@ -27,7 +29,6 @@ EXAMPLES:
 
 The function assumes that `list_in` is a list of integers, and returns a new list containing transformed elements of `list_in`. If the element is even, it's doubled. If the element is odd, it's tripled.
 
-For example:
 
 ```
 CODE:
@@ -58,7 +59,6 @@ In your solution markdown, please provide: a link to the .py file, a commented c
 
 The function accepts a list `grades_in` containing integer grades, drops the `to_drop` lowest grades (so, for `to_drop` equal to 2, the function should drop the 2 lowest grades), calculates the average of the grades left, and returns the letter grade this average corresponds to according to the letter grade scale for this course.
 
-For example:
 
 ```
 CODE:
@@ -78,6 +78,9 @@ def grade_calc(grades_in, to_drop):
     elif avg<60:
         grade='F'
     return grade
+    
+    
+    
 EXAMPLES:
 1.)grade_calc([67,87,45,34,98,89,56,76,90],3)
 'B'
@@ -93,7 +96,6 @@ In your solution markdown, please provide: a link to the .py file, a commented c
 
 The function accepts an input list of integers and returns a list with two sublists. The first sublist contains all even numbers in the input list and the second sublist contains all odd numbers.
 
-For example:
 ```
 CODE :
 def odd_even_filter(numbers):
@@ -104,6 +106,9 @@ def odd_even_filter(numbers):
         elif i%2==1:
             odd.append(i)
     return [even,odd]
+    
+    
+    
  EXAMPLES :
  1.)odd_even_filter([1, 2, 3, 4, 5, 6, 7, 8, 9])
     [[2, 4, 6, 8], [1, 3, 5, 7, 9]]
