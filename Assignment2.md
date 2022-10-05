@@ -89,7 +89,7 @@ EXAMPLES:
 3.)grade_calc([34,56,78,43],2)
 'D'
 
-Link for the code is [Here](Code/assignment2/Q1.py)
+Link for the code is [Here](Code/assignment2/Q3.py)
 ```
 In your solution markdown, please provide: a link to the .py file, a commented code, the output of a few examples (3-4).
 
@@ -120,5 +120,5 @@ def odd_even_filter(numbers):
 [[98, 50, 90, 2, 56], [71, 39, 79, 5, 89]]
 
 
-Link for the code is [Here](Code/assignment2/Q1.py)
+Link for the code is [Here](Code/assignment2/Q4.py)
 ```
