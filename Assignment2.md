@@ -20,7 +20,7 @@ EXAMPLES:
 3.)pythagoreanTheorem(5,7)
     8.602325267042627
 
-Link for the code is [Here](INF502/Code/assignment2/Q1.py )
+Link for the code is[Here](INF502/Code/assignment2/Q1.py )
 
 ```
 
