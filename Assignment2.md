@@ -1,6 +1,6 @@
 ## Problems
 
-**1. Write a function with the following signature:** `pythagoreanTheorem(length_a, length_b)`. Find the code [here](code/Q1.py)
+**1. Write a function with the following signature:** `pythagoreanTheorem(length_a, length_b)`. 
 
 The function returns the length of the hypotenuse assuming that `length_a` and `length_b` are the lengths of the two legs of a right triangle (the legs that form the triangle's right angle). Hint: the `math` module might have useful functions to use.
 
@@ -20,7 +20,7 @@ EXAMPLES:
 3.)pythagoreanTheorem(5,7)
     8.602325267042627
 
-
+Link for the code is [Here](Code/assignment2/Q1.py)
 
 ```
 
@@ -51,7 +51,7 @@ EXAMPLES :
    [-24, -8, -9]
 
 
-
+Link for the code is [Here](Code/assignment2/Q2.py)
 ```
 In your solution markdown, please provide: a link to the .py file, a commented code, the output of a few examples (3-4).
 
@@ -88,6 +88,8 @@ EXAMPLES:
 'A'
 3.)grade_calc([34,56,78,43],2)
 'D'
+
+Link for the code is [Here](Code/assignment2/Q3.py)
 ```
 In your solution markdown, please provide: a link to the .py file, a commented code, the output of a few examples (3-4).
 
@@ -118,5 +120,5 @@ def odd_even_filter(numbers):
 [[98, 50, 90, 2, 56], [71, 39, 79, 5, 89]]
 
 
-
+Link for the code is [Here](Code/assignment2/Q4.py)
 ```
