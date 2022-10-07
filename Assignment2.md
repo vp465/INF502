@@ -53,7 +53,6 @@ EXAMPLES :
 ```
 Link for the code is [Here](Code/assignment2/Q2.py)
 
-In your solution markdown, please provide: a link to the .py file, a commented code, the output of a few examples (3-4).
 
 **3. Write a function with the following signature:** `grade_calc(grades_in, to_drop)`.
 
@@ -90,9 +89,6 @@ EXAMPLES:
 'D'
 ```
 Link for the code is [Here](Code/assignment2/Q3.py)
-
-In your solution markdown, please provide: a link to the .py file, a commented code, the output of a few examples (3-4).
-
 
 **4. Write a function with the following signature:** `odd_even_filter(numbers)`.
 
