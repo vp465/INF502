@@ -19,10 +19,10 @@ EXAMPLES:
     5.0
 3.)pythagoreanTheorem(5,7)
     8.602325267042627
-
+```
 Link for the code is [Here](Code/assignment2/Q1.py)
 
-```
+
 
 
 **2. Write a function with the following signature:** `list_mangler(list_in)`.
@@ -50,9 +50,9 @@ EXAMPLES :
 3.)list_mangler([-12,-4,-3])
    [-24, -8, -9]
 
-
-Link for the code is [Here](Code/assignment2/Q2.py)
 ```
+Link for the code is [Here](Code/assignment2/Q2.py)
+
 In your solution markdown, please provide: a link to the .py file, a commented code, the output of a few examples (3-4).
 
 **3. Write a function with the following signature:** `grade_calc(grades_in, to_drop)`.
@@ -88,9 +88,9 @@ EXAMPLES:
 'A'
 3.)grade_calc([34,56,78,43],2)
 'D'
-
-Link for the code is [Here](Code/assignment2/Q3.py)
 ```
+Link for the code is [Here](Code/assignment2/Q3.py)
+
 In your solution markdown, please provide: a link to the .py file, a commented code, the output of a few examples (3-4).
 
 
@@ -119,6 +119,5 @@ def odd_even_filter(numbers):
  3.)odd_even_filter([71, 39, 98, 79, 5, 89, 50, 90, 2, 56])
 [[98, 50, 90, 2, 56], [71, 39, 79, 5, 89]]
 
-
+````
  Link for the code is [Here](Code/assignment2/Q4.py)
-```
