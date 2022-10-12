@@ -1,0 +1,20 @@
+{
+    "H": {
+        "name": "Hydrogen",
+        "atomic_number": "1",
+        "row": "01",
+        "column": "1"
+    },
+    "He": {
+        "name": "Helium",
+        "atomic_number": "2",
+        "row": "1",
+        "column": "1"
+    },
+    "Li": {
+        "name": "Lithium",
+        "atomic_number": "3",
+        "row": "2",
+        "column": "1"
+    }
+}
