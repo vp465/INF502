@@ -1,1 +1,1 @@
-# INF502
+# Assigments
